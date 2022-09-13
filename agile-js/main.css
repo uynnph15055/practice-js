@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+    background-color: #A460ED;
+}
+
+.header{
+    height: 70px;
+    background-color: #8c34eb;
+}

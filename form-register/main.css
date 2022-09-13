@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+    background-color: #A460ED;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    align-items:center;
+}
+
+.container {
+    width: 400px;
+    background-color: #ffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px #ccc;
+}
+
+.container__header{
+    background-color: #B7D3DF;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.container__title{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 20px 0px;
+}
+
+.container__control{
+    margin-top: 10px;
+}
+
+.container__control:first-child{
+    margin-top: 0px;
+}
+
+.container__control--label{
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.container__control--input{
+    width: 100%;
+    height: 35px;
+    padding-left: 10px;
+    font-size: 0.9rem;
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.container__control--input:focus{
+    outline: #A460ED;
+    border: 2px solid #A460ED;
+}
+
+.container__body{
+    padding: 15px;
+}
+
+.container__checkbox--item{
+    margin-top: 20px;
+}
+
+.container__checkbox--label{
+    font-size: 0.9rem;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.container__social{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-gap: 20px;
+    margin-top: 20px;
+}
+
+.container__social-google{
+   background-color: #d6d5d5;
+}
+
+.container__social-facebook{
+    background-color: #4267B2;
+    color: #ffff;
+}
+
+.container__social--item{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 7px 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.container__social--name{
+    font-size: 0.9rem;
+    display: block;
+    margin-left: 10px;
+}
+
+.error{
+    font-size: 0.9rem;
+    color: #D2001A;
+    font-weight: bolder;
+    margin: 5px 2px;
+}
+
+.container__social--img{
+    width: 25px;
+}
+
+.container__btn-register{
+    background-color: #A460ED;
+}
+
+.container__footer{
+    padding: 5px 15px 20px 15px; 
+    text-align: right;
+}
+
+.container__btn-register{
+   padding: 8px 20px;
+   font-size: 1rem;
+   border: none;
+   color: #ffff;
+   font-weight: 600;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+

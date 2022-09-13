@@ -1,12 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    
+    <form class="container form-register">
+        <div class="container__header">
+            <h1 class="container__title">Đăng ký</h1>
+        </div>
+        <div class="container__body">
+            <div class="container__control">
+                <label class="container__control--label" for="">Họ và tên : </label>
+                <input id="fullname" class="container__control--input" type="text" placeholder="Họ và tên">
+            </div>
+            <p class="error error-fullname"></p>
+            <div class="container__control">
+                <label class="container__control--label" for="">Nghề nghiệp : </label>
+                 <div class="container__checkbox--item">
+                    <input  class="container__checkbox--input" value="1" type="checkbox" id="checkone"> <label class="container__checkbox--label" for="checkone">Lập trình website</label>
+                 </div>
+                 <div class="container__checkbox--item">
+                    <input  class="container__checkbox--input" value="2" type="checkbox" id="checktwo"> <label class="container__checkbox--label" for="checktwo">Lập trình game</label>
+                 </div>
+                 <div class="container__checkbox--item">
+                    <input  class="container__checkbox--input" value="3" type="checkbox" id="checkthree"> <label class="container__checkbox--label" for="checkthree"> Lập trình mobile</label>
+                 </div>
+            </div>
+            <p class="error error-job"></p>
+            <div class="container__control">
+                <label class="container__control--label" for="">Số điện thoại :  </label>
+                <input  id="phone" class="container__control--input" type="text" placeholder="Số điện thoại">
+            </div>
+            <p class="error error-phone"></p>
+            <div class="container__social">
+                <div class="container__social--item container__social-google">
+                    <img class="container__social--img container__social-google--img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/768px-Google_%22G%22_Logo.svg.png" alt="">
+                    <span class="container__social--name">Google</span>
+                </div>
+                <div class="container__social--item container__social-facebook">
+                    <img class="container__social--img container__social-google--img" src="https://cdn.pixabay.com/photo/2015/05/17/10/51/facebook-770688_1280.png" alt="">
+                    <span class="container__social--name">Facebook</span>
+                </div>
+            </div>
+        </div>
+        <div class="container__footer">
+            <button type="submit" class="container__btn-register">Đăng ký</button>
+        </div>
+        <script src="main.js"></script>
+    </form>
 </body>
+
 </html>
