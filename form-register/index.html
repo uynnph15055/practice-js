@@ -5,8 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    
+    <div class="container">
+        <header class="header-form">
+          <h2>Đăng ký</h2>
+        </header>
+        <form action="">
+            <div class="form-control ">
+                <label for="">User name</label>
+                <input type="text" id="username" class="form-input" placeholder="User name">
+                <i class="fa-solid fa-circle-check"></i>
+                <i class="fa-sharp fa-solid fa-circle-exclamation"></i>
+                <small>Error masseage !</small>
+            </div>
+            <div class="form-control ">
+                <label for="">Email</label>
+                <input type="text"  id="email" class="form-input" placeholder="Vd: uynnph15055@fpt.edu.vn">
+                <i class="fa-solid fa-circle-check"></i>
+                <i class="fa-sharp fa-solid fa-circle-exclamation"></i>
+                <small>Error masseage !</small>
+            </div>
+            <div class="form-control">
+                <label for="">Password</label>
+                <input type="password"  id="password" class="form-input" placeholder="Password">
+                <i class="fa-solid fa-circle-check"></i>
+                <i class="fa-sharp fa-solid fa-circle-exclamation"></i>
+                <small>Error masseage !</small>
+            </div>
+            <div class="form-control">
+                <label for="">Password confirm</label>
+                <input type="password" id="password-confirm" class="form-input" placeholder="Password confirm">
+                <i class="fa-solid fa-circle-check"></i>
+                <i class="fa-sharp fa-solid fa-circle-exclamation"></i>
+                <small>Error masseage !</small>
+            </div>
+            <button type="submit" class="btn-submit">Đăng ký</button>
+        </form>
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>
